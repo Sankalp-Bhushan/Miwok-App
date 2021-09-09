@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DFD1AE"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:padding="20dp"
+            android:text="Numers"
+            android:textColor="@color/black"
+            android:textSize="40sp"></TextView>
+
+        <TextView
+            android:id="@+id/text_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#388E3C"
+            android:padding="20dp"
+            android:text="Family Members"
+            android:textColor="@color/black"
+            android:textSize="40sp"></TextView>
+
+        <TextView
+            android:id="@+id/text_view3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7B1FA2"
+            android:padding="20dp"
+            android:text="Colors"
+            android:textColor="@color/black"
+            android:textSize="40sp"></TextView>
+
+        <TextView
+            android:id="@+id/text_view4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0288D1"
+            android:padding="20dp"
+            android:text="Phrases"
+            android:textColor="@color/black"
+            android:textSize="40sp"></TextView>
+    </LinearLayout>
+</ScrollView>

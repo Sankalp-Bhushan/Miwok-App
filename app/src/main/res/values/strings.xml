@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">practiceAndroidJava</string>
+    <string name="number" translatable="false">Numbers</string>
+    <string name="color" translatable="false">Colors</string>
+    <string name="phrase">Phrase</string>
+    <string name="family">Family</string>
+</resources>
